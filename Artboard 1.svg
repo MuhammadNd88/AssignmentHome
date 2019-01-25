@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="126.9" height="73.7" viewBox="0 0 1269 737">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #252525;
+        stroke: #000;
+        stroke-width: 8.28px;
+        fill-rule: evenodd;
+      }
+    </style>
+    <image id="image" width="435" height="726" xlink:href="data:img/png;base64,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"/>
+    <image id="image-2" width="339" height="11" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAABCAYAAAAmcnXSAAAAQklEQVQImU3LUQeAMACF0bOSFFv6/z8yFSVZMvawy3n7bkgxBhQdegwYMSNiwdpImGpXPmUZLy4c2Bo7Ttx4apfx/axPDit40aCKAAAAAElFTkSuQmCC"/>
+  </defs>
+  <g id="Artboard_1" data-name="Artboard 1">
+    <path id="Rectangle_3_copy" data-name="Rectangle 3 copy" class="cls-1" d="M604,177H439L709,903H874Z" transform="translate(-171 -177)"/>
+    <use id="Rectangle_3" data-name="Rectangle 3" y="2" xlink:href="#image"/>
+    <path id="Rectangle_3_copy_2" data-name="Rectangle 3 copy 2" class="cls-1" d="M1143,177H978l270,726h165Z" transform="translate(-171 -177)"/>
+    <use id="Rectangle_3_copy_3" data-name="Rectangle 3 copy 3" x="538" y="2" xlink:href="#image"/>
+    <use x="-86" y="726" xlink:href="#image-2"/>
+    <use id="Layer_1_copy" data-name="Layer 1 copy" x="452" y="721" xlink:href="#image-2"/>
+    <use id="Layer_1_copy_2" data-name="Layer 1 copy 2" x="991" y="721" xlink:href="#image-2"/>
+  </g>
+</svg>

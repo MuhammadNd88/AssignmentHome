@@ -1,61 +1,188 @@
-.wrapper{
-
-width: 80%;
-margin: 0 auto;
-max-width:1000px;
-
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1000px;
 }
 header {
-    height: 100%;
-    margin-bottom: 5px;
-    border-radius: 5px;
-    padding: 5px;
-    background: orange;
-    
-   
+  height: 100%;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  padding: 5px;
 }
 nav {
-    width: 100%;
-    height: 50px;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    justify-content: flex-start;
-    padding: 10px;
-    align-items: center;
-  }
+  width: 100%;
+  height: 50px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  justify-content: flex-start;
+  padding: 10px;
+  align-items: center;
+}
+nav ul {
+
+  padding: 0;
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+}
+.logo {
+  background-image: url('./logo1.jpg');
+  height: 40px;
+  width: 40px;
+  padding-right: 100px;
+  padding-bottom: 40px;
+  margin-right: 5px;
+  margin-left: 0;
+
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  font-size: 16px;
+  font: bold;
+  width: 300px;
+  justify-content: space-between;
+}
+li {
+  list-style: none;
+}
+
+.menu-container li {
+  padding: 10px;
+  background: linear-gradient(#2f78c0, #0f4071 70%);
+  color: white;
+  margin: 0 auto;
+ 
+  max-width: 900px;
+  width: 90%;
+  border-radius: 5px;
+  border: 2px solid white;
+}
+a {
+  color: white;
+
+  text-decoration-line: none;
+
+  font-weight: 700;
+}
+
+hero {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.7) 0%,
+      rgba(0, 0, 0, 0) 20%,
+      rgba(0, 0, 0, 0) 60%,
+      rgba(0, 0, 0, 0.7) 100%
+    ),
+    url("https://a0.muscache.com/pictures/7a76b8e8-23c3-4bc2-a841-f65ba4191197.jpg");
+  background-size: cover;
+  background-position: 50% 0%;
+  height: 80vh;
+  display: flex;
   
-  .logo {
-    height: 40px;
-    width: 40px;
-    padding-bottom: 25px;
-  }
-  ul {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    width: 300px;
-    justify-content: space-between;
-  }
-  li {
-    list-style: none;
-    padding: 10px;
-    background: linear-gradient(#2f78c0,#0f4071 70%);;
-    color: white;
-    margin: 0 auto;
-    max-width: 900px;
-    width: 90%;
-    border-radius: 5px;
-    border: 2px solid white;
-    
-  }
-  a{
-    
-    color:white;
-    
-    text-decoration-line: none;
-    
-    font-weight: 700;
+  margin-left: 80px;
+  margin-right: 80px;
+  
+  padding-bottom: 40px;
+}
+.primary-button {
+  background: white;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 2px solid white;
+  font-weight: 700;
+  margin-right: 5px;
+  margin-top:10px;
+}
+.secondary-button {
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 2px solid white;
+  font-weight: 700;
+  margin-top: 10px;
+}
+.hero-content {
+  color: white;
+  margin: 0 auto;
+  max-width: 900px;
+  /* width: 90%; */
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-top: 200px;
+  
+  
+}
+/*********************************Main Section**************************************/
+
+main {
+  margin: 10px 40px 10px 3 00px;
+  padding: 30 0 10 100;
+}
+.image1 {
+  margin: 10px 10px 0px 10px;
+  background-size: cover;
+  background-repeat: 50% 20%;
+  padding: 10;
+  height: 200px;
+  width: 300px;
+  background-image: url('./logo.jpg');
+  display: inline-block;
+}
+
+.image2 {
+  margin: 10px 10px 0px 10px;
+  padding: 10;
+  background-size: cover;
+  background-repeat: 50% 20%;
+  background-image: url('./logo.jpg');
+  height: 200px;
+  width: 300px;
+  display: inline-block;
+}
+.image3 {
+  margin: 10px 10px 0px 10px;
+  padding: 10;
+  background-size: cover;
+  background-repeat: 50% 20%;
+  background-image: url('./logo.jpg');
+  height: 200px;
+  width: 300px;
+  display: inline-block;
+}
 
 
-  }
+/************************************************************************-------Footer Section--------------/*****************************************************************/
+footer {
+  padding: 80px 0;
+  margin-top: 80px;
+}
+.footer-box {
+  display: block;
+  justify-content: flex-start;
+}
+footer a {
+  color: rgb(85, 82, 82);
+}
+.footer-container {
+  display: flex;
+  justify-content: right;
+}
+li {
+  line-height: 1.4;
+  font-family: sans-serif;
+}
+.footer-box li a {
+  color: black;
+
+  text-decoration-line: none;
+  font-size: 12px;
+  font-weight: 200;
+}
+ul li a:hover{
+text-decoration-line: underline;
+color:blue;
+
+}
