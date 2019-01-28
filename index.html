@@ -4,34 +4,178 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
     <link rel="stylesheet" href="./style.css" />
-    <title>Document</title>
+    <!-- Bootstrap CSS -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"
+  />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+      crossorigin="anonymous"
+    />
+    <title>Landscape Photography</title>
   </head>
-  <body>
-    <header class="wrapper">
+  <body >
+      <script>
+          window.onscroll = function(e) {
+            const hero = document.getElementById("hero");
+            const nav = document.getElementById("nav");
+            const scrollPosition = window.scrollY;
+            const heroHeight = hero.clientHeight;
+            const isScrollPastHero = scrollPosition > heroHeight;
+            isScrollPastHero ? (nav.className = "nav-fixed") : (nav.className = "");
+          };
+        </script>
+    <header class="header wrapper">
       <nav>
         <div class="logo">
-          <svg
-            viewBox="0 0 1000 1000"
-            role="presentation"
-            aria-hidden="true"
-            focusable="false"
-            style="height: 2em; width: 2em; display: block; fill: currentcolor;"
-          >
-            <path
-              d="m499.3 736.7c-51-64-81-120.1-91-168.1-10-39-6-70 11-93 18-27 45-40 80-40s62 13 80 40c17 23 21 54 11 93-11 49-41 105-91 168.1zm362.2 43c-7 47-39 86-83 105-85 37-169.1-22-241.1-102 119.1-149.1 141.1-265.1 90-340.2-30-43-73-64-128.1-64-111 0-172.1 94-148.1 203.1 14 59 51 126.1 110 201.1-37 41-72 70-103 88-24 13-47 21-69 23-101 15-180.1-83-144.1-184.1 5-13 15-37 32-74l1-2c55-120.1 122.1-256.1 199.1-407.2l2-5 22-42c17-31 24-45 51-62 13-8 29-12 47-12 36 0 64 21 76 38 6 9 13 21 22 36l21 41 3 6c77 151.1 144.1 287.1 199.1 407.2l1 1 20 46 12 29c9.2 23.1 11.2 46.1 8.2 70.1zm46-90.1c-7-22-19-48-34-79v-1c-71-151.1-137.1-287.1-200.1-409.2l-4-6c-45-92-77-147.1-170.1-147.1-92 0-131.1 64-171.1 147.1l-3 6c-63 122.1-129.1 258.1-200.1 409.2v2l-21 46c-8 19-12 29-13 32-51 140.1 54 263.1 181.1 263.1 1 0 5 0 10-1h14c66-8 134.1-50 203.1-125.1 69 75 137.1 117.1 203.1 125.1h14c5 1 9 1 10 1 127.1.1 232.1-123 181.1-263.1z"
-            ></path>
-          </svg>
+            <h1>Photography</h1>
+       
         </div>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
+    
+        <div class="menu-container">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          
+        </div>
+        <button class="menu-button">
+            <!-- <img src="./assets/menu.svg" alt="" />-->
+            <?xml version="1.0" encoding="UTF-8"?>
+            <svg
+              width="100px"
+              height="68px"
+              viewBox="0 0 100 68"
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+              <title>Group</title>
+              <desc>Created with Sketch.</desc>
+              <g
+                id="Page-1"
+                stroke="none"
+                stroke-width="1"
+                fill="none"
+                fill-rule="evenodd"
+              >
+                <g
+                  id="Artboard"
+                  transform="translate(-81.000000, -48.000000)"
+                  fill="#FFFFFF"
+                  fill-rule="nonzero"
+                >
+                  <g id="Group" transform="translate(81.000000, 48.000000)">
+                    <rect id="top-bar" x="0" y="0" width="100" height="8"></rect>
+                    <rect
+                      id="middle-bar"
+                      x="0"
+                      y="30"
+                      width="75"
+                      height="8"
+                    ></rect>
+                    <rect
+                      id="bottom-bar"
+                      x="0"
+                      y="60"
+                      width="50"
+                      height="8"
+                    ></rect>
+                  </g>
+                </g>
+              </g>
+            </svg>
+          </button>
       </nav>
     </header>
-    <main></main>
-    <footer></footer>
+    <hero class='wrapper'>
+      
+        <div class="hero-content">
+            <h1>Wellcome to Nature</h1>
+            <p>Share your advanture with us</p>
+            <a href="#" class="primary-button">Get Started</a>
+            <a href="#" class="secondary-button">Browse </a>
+          </div>
+        </div>
+    
+    
+    
+    </hero>
+    <main class='wrapper'>
+        <div class="image1">
+        
+        </div>
+            
+        <div class="image2">
+        </div>
+        
+        <div class="image3">
+        </div>
+        <div class="wrapper">
+            <h1> Natural Photography</h1>
+            <p>Landscape photography shows spaces within the world, sometimes vast and unending, but other times microscopic. 
+            Landscape photographs typically capture the presence of nature but can also focus on man-made features or disturbances of landscapes.
+            Landscape photography is done for a variety of reasons. Perhaps the most common is to recall a personal observation or experience while in the outdoors, especially when traveling.
+             Others pursue it particularly as an outdoor lifestyle, to be involved with nature and the elements, some as an escape from the artificial world.
+          </p>
+        </div>
+      </main>
+
+
+
+    <footer class="wrapper">
+      <div class="footer-container">
+        <div class="footer-box">
+          <ul>
+            <li><strong>What's new</strong></li>
+            <li><a href="#">NEW Surface Pro 6</a></li>
+            <li><a href="#">NEW Surface Go</a></li>
+            <li><a href="#">Xbox One X</a></li>
+            <li><a href="#">Xbox One S</a></li>
+            <li><a href="#">NEW Surface Laptop 2</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-box">
+          <ul>
+            <li><strong>Store & Support</strong></li>
+            <li><a href="#">Account profile</a></li>
+            <li><a href="#">Download Center</a></li>
+            <li><a href="#">Sales & support</a></li>
+            <li><a href="#">Xbox One S</a></li>
+            <li><a href="#">Support</a></li>
+          </ul>
+        </div>
+        <div class="footer-box">
+          <ul>
+            <li><strong>Microsoft in education</strong></li>
+            <li><a href="#">Office for students</a></li>
+            <li><a href="#">Office 365 for schools</a></li>
+            <li><a href="#">Microsoft Azure in education</a></li>
+          </ul>
+        </div>
+        <div class="footer-box">
+            <ul>
+                <li>
+                    <a href="#"><i class="fab fa-facebook fa-lg"></i></a>
+                    <a href="#"><i class="fab fa-twitter fa-lg"></i></a>
+                    <a href="#"><i class="fab fa-instagram fa-lg"></i></a>
+                </li>
+                <li><strong>Discover</strong></li>              
+                <li><a href="#">Terms</a></li>              
+                <li><a href="#">Privacy</a></li>              
+                <li><a href="#">Site Map</a></li>              
+            </ul>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
